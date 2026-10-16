@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs><linearGradient id="z" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff9a76"/><stop offset="1" stop-color="#7b61ff"/></linearGradient></defs>
+  <rect width="512" height="512" rx="112" fill="url(#z)"/>
+  <g transform="translate(256 270) scale(0.9) translate(-256 -270)">
+    <!-- baykuş gövdesi -->
+    <path d="M136 170 L176 96 L216 150 Q256 136 296 150 L336 96 L376 170 Q410 260 376 360 Q256 450 136 360 Q102 260 136 170Z" fill="#fff"/>
+    <circle cx="206" cy="220" r="52" fill="#ffd166"/><circle cx="306" cy="220" r="52" fill="#ffd166"/>
+    <circle cx="206" cy="220" r="26" fill="#2b2d42"/><circle cx="306" cy="220" r="26" fill="#2b2d42"/>
+    <circle cx="216" cy="210" r="8" fill="#fff"/><circle cx="316" cy="210" r="8" fill="#fff"/>
+    <path d="M240 270 L272 270 L256 300Z" fill="#ff7a59"/>
+    <!-- açık kitap -->
+    <path d="M150 330 Q200 310 256 340 Q312 310 362 330 L362 400 Q312 380 256 410 Q200 380 150 400Z" fill="#2ec4b6"/>
+    <path d="M256 340 L256 410" stroke="#fff" stroke-width="6"/>
+  </g></svg>

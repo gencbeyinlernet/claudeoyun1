@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Novarge Okuma Yazma</title>
+  <meta name="description" content="Novarge – 4-6 yaş çocuklar için sesli, oyunlu okuma yazma uygulaması. Harfleri çiz, hece ve kelime kur, dinle ve sesli oku.">
+  <meta name="theme-color" content="#ff7a59">
+  <meta name="color-scheme" content="light">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- Uygulama olarak yükleme (Android / iOS / masaüstü) -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Novarge">
+  <link rel="apple-touch-icon" href="ikonlar/apple-touch-icon.png">
+  <link rel="icon" href="ikon.svg" type="image/svg+xml">
+  <link rel="icon" href="ikonlar/favicon-32.png" type="image/png" sizes="32x32">
+
+  <!-- Paylaşım önizlemesi -->
+  <meta property="og:title" content="Novarge Okuma Yazma">
+  <meta property="og:description" content="4-6 yaş çocuklar için sesli, oyunlu okuma yazma uygulaması.">
+  <meta property="og:image" content="ikonlar/ikon-512.png">
+  <meta property="og:type" content="website">
+
+  <link rel="preload" href="fonts/andika-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="css/stil.css">
+</head>
+<body>
+  <main id="app" class="ekran">
+    <noscript><p class="uyari">Novarge'nin çalışması için tarayıcınızda JavaScript açık olmalıdır.</p></noscript>
+  </main>
+
+  <script src="js/veri.js"></script>
+  <script src="js/ses.js"></script>
+  <script src="js/cizim.js"></script>
+  <script src="js/yz.js"></script>
+  <script src="js/oyunlar.js"></script>
+  <script src="js/uygulama.js"></script>
+</body>
+</html>

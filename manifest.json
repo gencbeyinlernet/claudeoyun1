@@ -1,0 +1,21 @@
+{
+  "id": "./",
+  "name": "Novarge Okuma Yazma",
+  "short_name": "Novarge",
+  "description": "4-6 yaş çocuklar için sesli, oyunlu okuma yazma uygulaması",
+  "lang": "tr",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fff8ef",
+  "theme_color": "#ff7a59",
+  "categories": ["education", "kids"],
+  "icons": [
+    { "src": "ikonlar/ikon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "ikonlar/ikon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "ikonlar/ikon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "ikon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
